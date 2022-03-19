@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*INICIO DEL HEADER*/
+    .header{
+        background-color: #EAE8E1;
+    }
+
+    .titulo-header{
+        font-family: 'Dancing Script', cursive;
+        color: #a57c5b;
+    }
+
+    /*FIN DEL HEADER*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INCIO DEL NAV*/
+    .nav{
+        background-color: #d6c9bca2;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .buscar{
+        margin-right: 5px;
+    }
+
+    .submenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icons {
+        margin: 2px;
+    }
+    /*FIN DEL NAV*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE INDEX*/
+    .main-index{
+        background-color: #e9b78fb4;
+        padding: 20px;
+    }
+
+    .img{
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .comentarios {
+        box-shadow: rgba(0, 0, 0, 0.16) 3px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .titulo-contenedor {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comentario{
+        font-family:'Lato', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autor{
+        color: rgb(136, 136, 136);
+        font-family:'Lato', sans-serif;
+        text-align: end;
+        font-size: 2px;
+    }
+    /*FIN DEL MAIN DE INDEX*/
+
+    /*-----------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE CABAÑAS*/
+    .main-cabañas{
+        background-color: #c5db89b4;
+    }
+
+    .cab-1, .cab-2{
+        padding: 20px;
+    }
+
+    .cab-1__bloque, .cab-2__bloque{
+        column-gap:20px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .cab-1__titulo, .cab-2__titulo{
+        font-style: normal;
+        font-family: 'Cormorant Garamond';
+        text-align: center;
+        color: rgb(121, 79, 79);
+        font-size: 30px;
+    }
+
+    .cab-1__descrip, .cab-2__descrip {
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .cab-1__foto1, .cab-1__foto2, .cab-1__foto3, .cab-1__foto4, .cab-2__foto1, .cab-2__foto2, .cab-2__foto3, .cab-2__foto4 {
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+        border-radius: 50px;
+        box-shadow: 0px 2px 8px 0px black;
+        column-gap:20px;
+        ;
+    }
+
+    .cab-1__foto1, .cab-1__foto2, .cab-1__foto3, .cab-1__foto4, .cab-2__foto1, .cab-2__foto2, .cab-2__foto3, .cab-2__foto4 {
+        height: 400px;
+        width: 300px;
+        border-radius: 50px;
+        box-shadow: 0px 2px 8px 0px black;
+        transition: width 2s, height 2s;
+    }
+
+    .cab-1__foto1:hover , .cab-1__foto2:hover , .cab-1__foto3:hover , .cab-1__foto4:hover , .cab-2__foto1:hover, .cab-2__foto2:hover, .cab-2__foto3:hover, .cab-2__foto4:hover{
+        height: 500px;
+        width: 400px;
+        border-radius: 50px;
+        box-shadow: 0px 2px 8px 0px black;
+    }
+    /*FIN DEL MAIN DE CABAÑAS*/
+
+    /*-----------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE SERVICIOS*/
+    .main-servicios {
+        background-color: #d1c5ceb4;
+        padding: 25px;
+    }
+
+    .contenido-principal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tarj-desayuno, .tarj-pileta, .tarj-excursiones, .tarj-trekking{
+        color: rgb(121, 79, 79);
+        font-style: italic;
+        font-family: 'Cormorant';
+        overflow: hidden;
+        box-shadow: 0px 2px 8px 0px black;
+        background-color: white;
+        text-align: center;
+        border-radius: 1rem;
+        position: relative;
+        width: 280px;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1.25rem;
+    }
+
+    .fondo-tarjeta {
+        position: absolute;
+        background-image: url(../img/background\ servicios.png);
+        background-position: center;
+        height: 10rem;
+        width: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .titulo {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .descripcion {
+        margin: 1rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    .titulo-tarjeta {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .descripcion {
+        margin: 1rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    .boton-tarjeta{
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #f3e1e1;
+        padding: 1rem 0 1rem 0;
+        background-color: #ca8499f2;
+        border-radius: 15px;
+        width: 55%;
+        height: 13%;
+    }
+
+    .boton-tarjeta:focus{
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #c0a9a9;
+        padding: 1rem 0 1rem 0;
+        background-color: #db8fa6b0;
+        transition: width 2s, height 2s, background-color 2s;
+        border-radius: 15px;
+        width: 60%;
+        height: 15%;
+    }
+
+    .icono-tarjeta {
+        width: 8rem;
+        clip-path: circle(60px at center);
+        margin-top: 4.5rem;
+    }
+    /*FIN DEL MAIN DE SERVICIOS*/
+
+    /*-----------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE GALERÍA*/
+    .main-galeria{
+        background-color: #8adef3d3;
+        font-size: 25px;
+        font-style: normal;
+        font-family: 'Cormorant Garamond';
+        text-align: center;
+        color: rgb(121, 79, 79);
+    }
+
+    .complejo, .pileta, .rios, .paisajes{
+        padding: 20px;
+    }
+
+    .complejo-foto1, .complejo-foto2, .complejo-foto3, .complejo-foto4{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+        border-radius: 35px;
+        box-shadow: 0px 2px 8px 0px black;
+    }
+
+    .pileta-foto1, .pileta-foto2{
+        border-radius: 35px;
+        box-shadow: 0px 2px 8px 0px black;
+        column-gap:20px;
+    }
+
+    .rios-foto1, .rios-foto2, .rios-foto3{
+        object-fit:cover;
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+        border-radius: 35px;
+        box-shadow: 0px 2px 8px 0px black;
+        column-gap:20px;
+        
+    }
+
+    .paisajes-foto1, .paisajes-foto2 {
+        object-fit: cover;
+        height: auto;
+        width: auto;
+        max-height: 500px;
+        max-width: 500px;
+        border-radius: 35px;
+        box-shadow: 0px 2px 8px 0px black;
+        column-gap:20px;
+    }
+
+    .complejo-foto1, .complejo-foto2, .complejo-foto3, .complejo-foto4, .pileta-foto1, .pileta-foto2, .rios-foto1, .rios-foto2, .rios-foto3, .paisajes-foto1, .paisajes-foto2 {
+        height: 400px;
+        width: 300px;
+        border-radius: 50px;
+        box-shadow: 0px 2px 8px 0px black;
+        transition: width 2s, height 2s;
+        ;
+    }
+
+    .complejo-foto1:hover, .complejo-foto2:hover, .complejo-foto3:hover, .complejo-foto4:hover, .pileta-foto1:hover, .pileta-foto2:hover, .rios-foto1:hover, .rios-foto2:hover, .rios-foto3:hover, .paisajes-foto1:hover, .paisajes-foto2:hover{
+        height: 500px;
+        width: 400px;
+        border-radius: 50px;
+        box-shadow: 0px 2px 8px 0px black;
+    }
+    /*FIN DEL MAIN DE GALERÍA*/
+
+    /*-----------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE CONTACTO*/
+    .main-contacto{
+        background-color: #d8d27bb9;
+        padding-bottom: 10px;
+    }
+
+    .contenedor-mapa{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .mapa { 
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 70%;
+        padding-top: 0px;
+        height: 0;
+        overflow: hidden;
+        border: 5px solid #8a7b70b4;
+        border-radius: 10px;
+    }
+
+    .mapa iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .consignas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family:'Cormorant Garamond', serif;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-right: 10px;
+    }
+
+    .titulo-formulario {
+        font-family:'Cormorant Garamond', serif;
+        color: rgb(121, 79, 79);
+        text-align: center;
+    }
+
+    .consigna-formulario {
+        font-family: 'Lato', serif;
+    }
+
+    .huesp, .env{
+        display: flex;
+        justify-content: center;
+    }
+
+    .asun, .msj{
+        width: 30%;
+    }
+
+    .nom, .huesp, .prov, .tel, .email, .asun, .msj, .env {
+        padding: 5px;
+    }
+    /*FIN DEL MAIN DE CONTACTO*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL FOOTER*/
+    .footer{
+        background-color: rgb(236, 226, 226);
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-style: bold;
+        height: 10vh;
+    }
+
+    .social-copyright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .info-footer{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+
+    .data{
+        text-decoration: none;
+        color: rgb(177, 143, 99);
+    }
+    .datos-de-contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    /*FIN DEL FOOTER*/
+
+/*-----------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-----------------------------------------------------------*/
